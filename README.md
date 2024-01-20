@@ -2,3 +2,4 @@
 This repository contains answers to the course lab excercises
 
 * [lab 01](lab01/answers.md)
+* [lab 02](lab02/answers.md)
