@@ -17,7 +17,7 @@ print(x1, '+', x2, '=', x1+x2)
 # Enter two numbers:
 # 1 2
 # Traceback (most recent call last):
-#   File "/home/stellan/src/py/TFRE40/lab02/calculator.py", line 2, in <module>
+#   File "~/TFRE40/lab02/calculator.py", line 2, in <module>
 #     x1 = float(input()) 
 # ValueError: could not convert string to float: '1 2'
 
