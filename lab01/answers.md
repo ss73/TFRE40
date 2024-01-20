@@ -10,7 +10,7 @@ a simple calculator.
 To exit the Python interpreter, call the `exit()` function.
 
 ```python
-stellan@minttu:~/Dropbox/courses/tfre40-labs$ python3
+stellan@minttu:~/tfre40-labs$ python3
 Python 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 10 + 2*5
