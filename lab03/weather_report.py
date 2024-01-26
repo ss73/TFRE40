@@ -30,5 +30,3 @@ print('Average temperature using custom loop:', wf.calculate_avg_tmp(temp_list))
 temp_list = file_reader.read_from_file(file_path)
 print('First day of spring is at index:', wf.when_is_it_spring(temp_list))
 
-temp_list = file_reader.read_from_file_with_dates(file_path,0,1)
-print(temp_list[0:20])
