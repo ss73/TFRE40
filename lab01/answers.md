@@ -117,6 +117,8 @@ value and type are for the following expressions:
 >>> type(a) #Variable 'a' was defined in Excercise 7-8
 <class 'int'>
 
+>>> math.pi
+3.141592653589793
 >>> type(math.pi)
 <class 'float'>
 
@@ -129,6 +131,8 @@ value and type are for the following expressions:
 >>> type(10+5)
 <class 'int'>
 
+>>> 10/5
+2.0
 >>> type(10/5)
 <class 'float'>
 
@@ -141,15 +145,21 @@ value and type are for the following expressions:
 >>> type(10//3)
 <class 'int'>
 
+>>> 10//3
+3
 >>> type(10.0//3)
 <class 'float'>
 
+>>> 'hello' + 'world'
+'helloworld'
 >>> type('hello' + 'world')
 <class 'str'>
 
 >>> type('10' + '5')
 <class 'str'>
 
+>>> 'hello'*8
+'hellohellohellohellohellohellohellohello'
 >>> type('hello' * 8)
 <class 'str'>
 >>> 
