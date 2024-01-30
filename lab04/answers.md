@@ -120,7 +120,7 @@ def is_winner(board, marker):
 
 A nested function is used to avoid duplication as the  checks for winning *columns* is
 performed in the same way as winning *rows* but with a *transposed matrix*. The calculation
-of the matrix transpose is very pythonesque: `list(zip(*matrix))`.
+of the matrix transpose is very pythonic: `list(zip(*matrix))`.
 
 # Excercise 9
 
