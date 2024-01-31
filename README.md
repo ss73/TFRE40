@@ -5,3 +5,4 @@ This repository contains answers to the course lab excercises
 * [lab 02](lab02/answers.md)
 * [lab 03](lab03/answers.md)
 * [lab 04](lab04/answers.md)
+* [lab 05](lab05/answers.md)
