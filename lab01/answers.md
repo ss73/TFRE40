@@ -10,7 +10,7 @@ a simple calculator.
 To exit the Python interpreter, call the `exit()` function.
 
 ```python
-stellan@minttu:~/tfre40-labs$ python3
+$ python3
 Python 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 10 + 2*5
@@ -114,6 +114,8 @@ value and type are for the following expressions:
 >>> type('hello')
 <class 'str'>
 
+>>> a
+15
 >>> type(a) #Variable 'a' was defined in Excercise 7-8
 <class 'int'>
 
@@ -148,7 +150,7 @@ value and type are for the following expressions:
 >>> 10//3
 3
 >>> type(10.0//3)
-<class 'float'>
+<class 'int'>
 
 >>> 'hello' + 'world'
 'helloworld'
