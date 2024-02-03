@@ -150,7 +150,7 @@ print('Hypotenuse is:', hypotenuse(*get_sides_from_user()))
 
 ### Subtask D
 > You can use the Pythagorean theorem to calculate the distance between two points
-> $ (x_1 , y_1 ) $ and $ (x_2 , y_2 ) $ using $ \sqrt{(x_2 − x_1)^2 + (y_2 − y_1)^2} $. Implement a new function `distance` with four parameters (`x1`, `y1`, `x2`, `y2`) that calculates the distance between two points. The function should use the hypotenuse function.
+> $(x_1 , y_1 )$ and $(x_2 , y_2 )$ using $\sqrt{(x_2 − x_1)^2 + (y_2 − y_1)^2}$. Implement a new function `distance` with four parameters (`x1`, `y1`, `x2`, `y2`) that calculates the distance between two points. The function should use the hypotenuse function.
 
 The relevant part of [`pythagoras.py`](pythagoras.py) is covered by the following code block:
 
