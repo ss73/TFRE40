@@ -7,7 +7,7 @@
 > `print('hello world')`
 
 
-The file is available here: [hello.py](hello.py)
+The file is available here: [`hello.py`](hello.py)
 
 ## Task 2
 > Run the Python file by clicking on the triangle ( ▷ ) at the top right in VS Code. When the file
@@ -73,7 +73,7 @@ ValueError: could not convert string to float: '1 2'
 > division. The output for the other operations should be similar to the addition output.
 
 The extended calculator is implemented in the same source file,
-[calculator.py](calculator.py)
+[`calculator.py`](calculator.py)
 
 ```python
 print('Enter two numbers and an operator (+, -, *, /):')
@@ -101,8 +101,8 @@ else:
 
 ```python
 def hypotenuse(a, b):
-c = math.sqrt(a**2 + b**2)
-return c
+    c = math.sqrt(a**2 + b**2)
+    return c
 ```
 
 ### Subtask A
@@ -135,7 +135,7 @@ The same result (i.e. `NameError`) is output when referencing local variables ou
 >The above call uses 5 and 10 as side lengths. Modify the program (except for the
 >hypotenuse function) to read the side lengths as numbers from the user.
 
-The relevant part of the [`code`](pythagoras.py) is defined by the following code block:
+The relevant part of the [`pytagoras.py`](pythagoras.py) is defined by the following code block:
 ```python
 def get_sides_from_user():
     print('Input first side length:')
@@ -150,9 +150,9 @@ print('Hypotenuse is:', hypotenuse(*get_sides_from_user()))
 
 ### Subtask D
 > You can use the Pythagorean theorem to calculate the distance between two points
-> (x1 , y1 ) and (x2 , y2 ) using sqrt((x2 − x1)^2 + (y2 − y1)^2). Implement a new function `distance` with four parameters (`x1`, `y1`, `x2`, `y2`) that calculates the distance between two points. The function should use the hypotenuse function.
+> $ (x_1 , y_1 ) $ and $ (x_2 , y_2 ) $ using $ \sqrt{(x_2 − x_1)^2 + (y_2 − y_1)^2} $. Implement a new function `distance` with four parameters (`x1`, `y1`, `x2`, `y2`) that calculates the distance between two points. The function should use the hypotenuse function.
 
-The relevant part of the [`source code`](pythagoras.py) is covered by the following code block:
+The relevant part of [`pythagoras.py`](pythagoras.py) is covered by the following code block:
 
 ```python
 def distance(x1, y1, x2, y2):
@@ -162,7 +162,7 @@ def distance(x1, y1, x2, y2):
 ### Subtask E
 >Read the coordinates for two points (4 numbers) from the user and print the distance between them.
 
-The relevant part of the [`source code`](pythagoras.py) is contained in the following code block:
+The relevant part of [`pythagoras.py`](pythagoras.py) is contained in the following code block:
 
 ```python
 def get_points_from_user():
@@ -204,12 +204,16 @@ def to_celsius(fahrenheit):
 
 def circle_area(diameter):
     return math.pi * diameter * diameter / 4
+
+print('5 miles in km:', to_km(5))
+print('25 deg. C in F:', to_fahrenheit(25))
+print('100 deg. F in C:', to_celsius(100))
+print('Area of circle with diameter 5:', round(circle_area(5), 2))    
 ```
 
 When the program is run, the following output is produced:
 
 ```
-Unit conversions and circle area formula
 5 miles in km: 8.047
 25 deg. C in F: 77.0
 100 deg. F in C: 37.78
