@@ -76,6 +76,25 @@ division. The output for the other operations should be similar to the addition 
 The extended calculator is implemented in the same source file,
 [calculator.py](calculator.py)
 
+```python
+print('Enter two numbers and an operator (+, -, *, /):')
+x1 = float(input()) 
+x2 = float(input())
+op = input().strip()
+if op == '+':
+    print(x1, '+', x2, '=', x1+x2)
+elif op == '-':
+    print(x1, '-', x2, '=', x1-x2)
+elif op == '*':
+    print(x1, '*', x2, '=', x1*x2)
+elif op == '/':
+    print(x1, '/', x2, '=', x1/x2)
+else:
+    print('Unknown operation:', op)
+
+
+```
+
 ## Task 5
 We will now implement our own functions and call them.
 
@@ -94,7 +113,7 @@ The source code is available here: [pythagoras.py](pythagoras.py)
 
 When running the program, the following output is produced:
 ```
-In a right angle with sides 5, 10; calculate the hypothenuse
+In a right triangle with sides 5, 10; calculate the hypothenuse
 The hypotenuse is 11.180339887498949
 ```
 
@@ -171,7 +190,23 @@ We will now implement some of the formulas we saw in Exercise 1 as functions. Im
 * to_celsius: converts degrees Fahrenheit to Celsius
 * circle_area: calculates the area of a circle given its diameter
 
-The [functions.py](functions.py) program generates the following output when run:
+The following is added to the [functions.py](functions.py) program
+
+```python
+def to_km(miles):
+    return round(1609.344 * miles / 1000, 3)
+
+def to_fahrenheit(celsius):
+    return round((9/5)*celsius + 32, 2)
+
+def to_celsius(fahrenheit):
+    return round((5/9)*(fahrenheit-32), 2)
+
+def circle_area(diameter):
+    return math.pi * diameter * diameter / 4
+```
+
+When the program is run, the following output is produced:
 
 ```
 Unit conversions and circle area formula
@@ -185,7 +220,15 @@ Area of circle with diameter 5: 19.63
 ## Task 7
 Implement the `print_c2f_table` function, which prints all degrees Celsius within a specific range along with their corresponding degrees in Fahrenheit. The range is determined by two parameters to the function
 
-The function is implemented in the same source file, [functions.py](functions.py). When run, the following output is produced:
+The function is implemented in the same source file, [functions.py](functions.py).
+
+```python
+def print_c2f_table(first, last):
+    for c in range(first, last+1):
+        print(c, to_fahrenheit(c))
+```
+
+When run, the following output is produced:
 
 ```
 Celsius to Fahrenheit 3-5
