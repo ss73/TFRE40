@@ -27,7 +27,7 @@ Yes
 ## Task 7
 >Create a file called `weather_functions.py` and move your function `calculate_avg_temp` there.
 
- The source code is available in [`weather_report.py``](weather_report.py) and [`weather_functions.py``](weather_functions.py)
+ The source code is available in [`weather_report.py`](weather_report.py) and [`weather_functions.py`](weather_functions.py)
 
 >What happens when you run your code in the weather_report.py file?
 
