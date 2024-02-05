@@ -9,7 +9,7 @@ def hypotenuse(a, b):
 def distance(x1, y1, x2, y2):
     return hypotenuse(x2-x1, y2-y1)
 
-print('In a right angle with sides 5, 10; calculate the hypotenuse')
+print('In a right triangle with sides 5, 10; calculate the hypotenuse')
 print('The hypotenuse is', hypotenuse(5, 10))
 
 # Referencing function parameters outside of the fuction:
