@@ -1,0 +1,19 @@
+4.2 
+0.1 + 0.2 = 0.30000000000000004
+
+4.3 
+ValueError: could not convert string to float: '1 4'
+
+4.4
+Enter two numbers:
+10
+4
+10.0 + 4.0 = 14.0
+10.0 - 4.0 = 6.0
+10.0 * 4.0 = 40.0
+10.0 / 4.0 = 2.5
+
+5.2
+NameError: name 'a' is not defined
+NameError: name 'c' is not defined
+

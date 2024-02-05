@@ -1,1 +1,7 @@
-print("hello world")
+print('Enter two numbers:')
+x1 = float(input())
+x2 = float(input())
+print(x1, '+', x2, '=', x1+x2)
+print(x1, '-', x2, '=', x1-x2)
+print(x1, '*', x2, '=', x1*x2)
+print(x1, '/', x2, '=', x1/x2)
