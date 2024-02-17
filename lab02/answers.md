@@ -112,7 +112,7 @@ The source code is available here: [`pythagoras.py`](pythagoras.py)
 
 When running the program, the following output is produced:
 ```
-In a right triangle with sides 5, 10; calculate the hypothenuse
+In a right triangle with sides 5, 10; calculate the hypotenuse
 The hypotenuse is 11.180339887498949
 ```
 
