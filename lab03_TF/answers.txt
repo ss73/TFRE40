@@ -1,0 +1,25 @@
+1 -
+2 -
+3 -
+4 - 
+5:
+def calculate_avg_temp(temps):
+    sum = 0
+    measures = 0
+    for temp in temps:
+        sum += temp
+        measures += 1
+    return (sum/measures)
+
+6 - 
+7: NameError
+8: No difference - function can't be found
+9 -
+10 -
+11 - 
+12 - 
+13: 
+14: see code in file
+15: 12/1 - OK
+16: Ran 5 tests in 0.035s  -  OK
+17: -
