@@ -42,8 +42,8 @@ class TicTacToeApp(tk.Tk):
             self._buttons.append(t)
 
         # Create label for the status of the game in the bottom left
-        self._label = tk.Label(self,
-                        font=('Helvetica', 30),
+        self._label = tk.Button(self,
+                        #font=('Helvetica', 30),
                         anchor='center',
                         width=2)
         self._label.grid(row=3, column=0, columnspan=2, sticky="NEWS")
