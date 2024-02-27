@@ -15,7 +15,6 @@ def read_words(filename):
     for line in file:
         for word in line.split():
             wordlist.append(word.strip(string.punctuation + string.whitespace).lower())
-
     return wordlist
 
 def count_only(words, count_words):
